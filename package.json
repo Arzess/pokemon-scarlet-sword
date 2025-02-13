@@ -1,0 +1,34 @@
+{
+  "name": "scarlet-sword",
+  "version": "1.0.0",
+  "description": "action game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass styles:dist/css --watch",
+    "dev": "concurrently \"npm run sass\" \"live-server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arzess/scarlet-sword.git"
+  },
+  "keywords": [
+    "action",
+    "game",
+    "2d",
+    "battle"
+  ],
+  "author": "Arzess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arzess/scarlet-sword/issues"
+  },
+  "homepage": "https://github.com/Arzess/scarlet-sword#readme",
+  "dependencies": {
+    "pokemon-sprites": "github:PokeAPI/sprites"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "sass": "^1.84.0"
+  }
+}

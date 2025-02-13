@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <title>Battle Arena</title>
+  </head>
+  <body>
+    <!-- Entities -->
+    <ul class="entities-list">
+      <li class="entity-player">
+        <img
+          src="./node_modules/pokemon-sprites/sprites/pokemon/versions/generation-v/black-white/animated/back/2.gif"
+          alt=""
+        />
+      </li>
+      <li class="entity-opponent">
+        <img
+          src="./node_modules/pokemon-sprites/sprites/pokemon/versions/generation-v/black-white/animated/4.gif"
+          alt=""
+        />
+      </li>
+    </ul>
+    <!-- Messages -->
+    <div class="message hidden">
+      <p class="main-text">The battle is about to start...</p>
+      <button type="button" class="hidden">
+        <p class="icon-text">&triangledown;</p>
+      </button>
+    </div>
+    <!-- Background -->
+    <div class="battle-background">
+      <img src="./src/battle-background-1.jpg" alt="" />
+    </div>
+  </body>
+</html>
